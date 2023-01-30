@@ -43,10 +43,10 @@ contents, err := fs.ReadFile(gfs, "some/useful/file.h")
 
 ## Supported Go Versions
 
-`gitloaderfs` supports versions of Go that are noted by the Go release policy,
+`gitrepofs` supports versions of Go that are noted by the Go release policy,
 that is, major versions _N_ and _N_-1 (where _N_ is the current major version).
 
 ## Copyright and License
 
-`gitloaderfs` is Copyright 2023 Harald Albrecht, and licensed under the Apache
+`gitrepofs` is Copyright 2023 Harald Albrecht, and licensed under the Apache
 License, Version 2.0.
