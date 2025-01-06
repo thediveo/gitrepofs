@@ -2,12 +2,17 @@
 
 [![PkgGoDev](https://img.shields.io/badge/-reference-blue?logo=go&logoColor=white&labelColor=505050)](https://pkg.go.dev/github.com/thediveo/gitrepofs)
 [![GitHub](https://img.shields.io/github/license/thediveo/gitrepofs)](https://img.shields.io/github/license/thediveo/gitrepofs)
-![build and test](https://github.com/thediveo/gitrepofs/workflows/build%20and%20test/badge.svg?branch=master)
+![build and test](https://github.com/thediveo/gitrepofs/actions/workflows/buildandtest.yaml/badge.svg?branch=master)
 ![Coverage](https://img.shields.io/badge/Coverage-93.9%25-brightgreen)
 [![Go Report Card](https://goreportcard.com/badge/github.com/thediveo/gitrepofs)](https://goreportcard.com/report/github.com/thediveo/gitrepofs)
 
 A Go [fs.FS](https://pkg.go.dev/io/fs#FS) _git repository file system_ to easily
 access a repository at a specific tag (or other git reference).
+
+For devcontainer instructions, please see the [section "DevContainer"
+below](#devcontainer).
+
+## Usage
 
 The main envisioned use case is for `go generate`-based updates from upstream
 repositories to fetch the latest C definitions without the need to integrate
@@ -41,6 +46,18 @@ contents, err := fs.ReadFile(gfs, "some/useful/file.h")
 - out of competition: [@posener/gitfs](https://github.com/posener/gitfs) tackles
   [http.FileSystem](https://pkg.go.dev/net/http#FileSystem) instead.
 
+## DevContainer
+
+> [!CAUTION]
+>
+> Do **not** use VSCode's "~~Dev Containers: Clone Repository in Container
+> Volume~~" command, as it is utterly broken by design, ignoring
+> `.devcontainer/devcontainer.json`.
+
+1. `git clone https://github.com/thediveo/enumflag`
+2. in VSCode: Ctrl+Shift+P, "Dev Containers: Open Workspace in Container..."
+3. select `enumflag.code-workspace` and off you go...
+
 ## Supported Go Versions
 
 `gitrepofs` supports versions of Go that are noted by the Go release policy,
@@ -48,5 +65,5 @@ that is, major versions _N_ and _N_-1 (where _N_ is the current major version).
 
 ## Copyright and License
 
-`gitrepofs` is Copyright 2023 Harald Albrecht, and licensed under the Apache
-License, Version 2.0.
+`gitrepofs` is Copyright 2023, 2025 Harald Albrecht, and licensed under the
+Apache License, Version 2.0.
