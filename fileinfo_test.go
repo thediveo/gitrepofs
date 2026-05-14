@@ -21,7 +21,7 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/thediveo/gitrepofs/test/helpers"
+	. "github.com/thediveo/success"
 )
 
 var _ = Describe("file/dir information", func() {

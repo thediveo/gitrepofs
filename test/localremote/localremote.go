@@ -26,9 +26,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/filemode"
 	"github.com/go-git/go-git/v5/plumbing/object"
 
-	. "github.com/onsi/ginkgo/v2"                  // we don't care about dot-imports
-	. "github.com/onsi/gomega"                     // we don't care about dot-imports
-	. "github.com/thediveo/gitrepofs/test/helpers" // guess what we don't care about?
+	. "github.com/onsi/ginkgo/v2"   //nolint:staticcheck // we don't care about dot-imports
+	. "github.com/onsi/gomega"      //nolint:staticcheck // we don't care about dot-imports
+	. "github.com/thediveo/success" //nolint:staticcheck // guess what we don't care about?
 )
 
 var (
