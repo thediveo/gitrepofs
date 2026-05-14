@@ -20,9 +20,10 @@ import (
 
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/object"
+
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	. "github.com/thediveo/gitrepofs/test/helpers"
+	. "github.com/thediveo/success"
 )
 
 var _ = Describe("git directories", func() {

@@ -1,9 +1,9 @@
 # gitrepofs
 
-[![PkgGoDev](https://img.shields.io/badge/-reference-blue?logo=go&logoColor=white&labelColor=505050)](https://pkg.go.dev/github.com/thediveo/gitrepofs)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/thediveo/gitrepofs)](https://pkg.go.dev/github.com/thediveo/gitrepofs)
 [![GitHub](https://img.shields.io/github/license/thediveo/gitrepofs)](https://img.shields.io/github/license/thediveo/gitrepofs)
 ![build and test](https://github.com/thediveo/gitrepofs/actions/workflows/buildandtest.yaml/badge.svg?branch=master)
-![Coverage](https://img.shields.io/badge/Coverage-93.9%25-brightgreen)
+![Coverage](https://img.shields.io/badge/Coverage-93.8%25-brightgreen)
 [![Go Report Card](https://goreportcard.com/badge/github.com/thediveo/gitrepofs)](https://goreportcard.com/report/github.com/thediveo/gitrepofs)
 
 A Go [fs.FS](https://pkg.go.dev/io/fs#FS) _git repository file system_ to easily
@@ -65,5 +65,5 @@ that is, major versions _N_ and _N_-1 (where _N_ is the current major version).
 
 ## Copyright and License
 
-`gitrepofs` is Copyright 2023, 2025 Harald Albrecht, and licensed under the
+`gitrepofs` is Copyright 2023‒2026 Harald Albrecht, and licensed under the
 Apache License, Version 2.0.

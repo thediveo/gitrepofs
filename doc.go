@@ -1,5 +1,5 @@
 /*
-package gitrepofs provides a fs.FS interface onto a remote git repository at a
+Package gitrepofs provides a fs.FS interface onto a remote git repository at a
 specific tag.
 
 The main envisioned use case is for “go generate”-based updates from upstream
