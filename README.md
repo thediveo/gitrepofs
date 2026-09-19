@@ -3,8 +3,7 @@
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/thediveo/gitrepofs)](https://pkg.go.dev/github.com/thediveo/gitrepofs)
 [![GitHub](https://img.shields.io/github/license/thediveo/gitrepofs)](https://img.shields.io/github/license/thediveo/gitrepofs)
 ![build and test](https://github.com/thediveo/gitrepofs/actions/workflows/buildandtest.yaml/badge.svg?branch=master)
-![Coverage](https://img.shields.io/badge/Coverage-93.8%25-brightgreen)
-[![Go Report Card](https://goreportcard.com/badge/github.com/thediveo/gitrepofs)](https://goreportcard.com/report/github.com/thediveo/gitrepofs)
+![Coverage](https://img.shields.io/badge/Coverage-96.1%25-brightgreen)
 
 A Go [fs.FS](https://pkg.go.dev/io/fs#FS) _git repository file system_ to easily
 access a repository at a specific tag (or other git reference).
